@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="assests/styles/global.css">
+    <title>Pagina de Captura</title>
+</head>
+<body>
+    <header><!--inicio do header-->
+        <nav id="navbar"><!--inicio do navbar-->
+            <i class="fa-solid fa-burger" id="nav_logo"> Food</i>
+            <ul id="nav_list"><!--inicio do nav_list-->
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>  
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul><!--inicio do nav_list-->
+            <button class="btn-default"><!--inicio btn-default-->
+                Peça aqui
+            </button><!--fim btn-default-->
+
+            <!--inicio btn-mobile-->
+            <button id="mobile_btn"><!--inicio btn-mobile-->
+                <i class="fa-solid fa-bars"></i>
+            </button><!--fim btn-mobile-->
+        </nav><!--fim do navbar-->
+
+        <div id="mobile_menu">
+            <ul class="mobile_nav_list"><!--inicio do nav_list-->
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>  
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul><!--inicio do nav_list-->
+            <button class="btn-default"><!--inicio btn-default-->
+                Peça aqui
+            </button><!--fim btn-default-->
+        </div>
+    </header><!--fim do header-->
+
+
+    <main id="content"><!--inicio do main content-->
+        <section id="home"><!--inicio do section-->
+            <div class="shape"></div>
+                <div id="cta"><!--inicio da cta-->
+                    <h1 class="title">O sabor que vai até <span>você</span></h1>
+                    <p class="description"><!--inicio do description-->
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas, tempore voluptate repellat qui aperiam eligendi corrupti doloremque libero voluptatibus commodi quas maxime reprehenderit molestias vitae alias! Fuga nam consectetur molestiae.
+                    </p><!--fim do description-->
+                    <div id="cta_buttons"><!--inicio do cta_buttons-->
+                        <a href="#" class="btn-default">Ver cardápio</a>
+                        <a href="tel: +55 16 99999-9999" id="phone_button">
+                            <button class="btn-default"><!--inicio do btn-default-->
+                                <i class="fa-solid fa-phone"></i>
+                            </button><!--fim do btn-default-->
+                            (51) 92342-32432
+                        </a>
+                    </div><!--fim do cta_buttons-->
+                    <div class="social-media-buttons"><!--inicio do social-media-buttons-->
+                        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    </div><!--fim do social-media-buttons-->
+                </div><!--fim da cta-->
+
+                <div id="banner">
+                    <img src="assests/images/lanchess.png" alt="">
+                </div>
+        </section><!--inicio do section-->
+
+        <section id="menu"><!--inicio do menu-->
+            <h2 class="section-title">Cardápio</h2>
+            <h3 class="section-subtitle">Nossos pratos especiais</h3>
+            <div id="dishes"><!--inicio do dishes-->
+                <div class="dish"><!--inicio do dish-->
+                    <div class="dish-heart"><!--inicio do dish-heart-->
+                        <i class="fa-solid fa-heart"></i>
+                    </div><!--fim do dish-heart-->
+                    <img src="assests/images/lanche1.png" alt="">
+                    <h3 class="dish-description">Lorem Ipsum</h3>
+                    <span class="dish-description"><!--inicio do dish-description-->
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non officiis error recusandae perspiciatis molestiae quos, eaque, consequuntur nobis, animi aliquid voluptatibus laboriosam iure? Officia ratione in, perferendis quaerat sequi repellendus?
+                    </span><!--inicio do dish-description-->
+                    <div class="dish-rate"><!--inicio do dish-rate-->
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div><!--fim do dish-rate-->
+                    <div class="dish-price"><!--inicio do dish-price-->
+                        <h4>R$20,00</h4>
+                        <button class="btn-default"><!--inicio do btn-default-->
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button><!--fim do btn-default-->
+                    </div><!--fim do dish-price-->
+                </div><!--fim do dish-->
+
+                <div class="dish"><!--inicio do dish-->
+                    <div class="dish-heart"><!--inicio do dish-heart-->
+                        <i class="fa-solid fa-heart"></i>
+                    </div><!--fim do dish-heart-->
+                    <img src="assests/images/lanche2.png" alt="">
+                    <h3 class="dish-description">Lorem Ipsum</h3>
+                    <span class="dish-description"><!--inicio do dish-description-->
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non officiis error recusandae perspiciatis molestiae quos, eaque, consequuntur nobis, animi aliquid voluptatibus laboriosam iure? Officia ratione in, perferendis quaerat sequi repellendus?
+                    </span><!--inicio do dish-description-->
+                    <div class="dish-rate"><!--inicio do dish-rate-->
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div><!--fim do dish-rate-->
+                    <div class="dish-price"><!--inicio do dish-price-->
+                        <h4>R$20,00</h4>
+                        <button class="btn-default"><!--inicio do btn-default-->
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button><!--fim do btn-default-->
+                    </div><!--fim do dish-price-->
+                </div><!--fim do dish-->
+
+                <div class="dish"><!--inicio do dish-->
+                    <div class="dish-heart"><!--inicio do dish-heart-->
+                        <i class="fa-solid fa-heart"></i>
+                    </div><!--fim do dish-heart-->
+                    <img src="assests/images/lanche3.png" alt="">
+                    <h3 class="dish-description">Lorem Ipsum</h3>
+                    <span class="dish-description"><!--inicio do dish-description-->
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non officiis error recusandae perspiciatis molestiae quos, eaque, consequuntur nobis, animi aliquid voluptatibus laboriosam iure? Officia ratione in, perferendis quaerat sequi repellendus?
+                    </span><!--inicio do dish-description-->
+                    <div class="dish-rate"><!--inicio do dish-rate-->
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div><!--fim do dish-rate-->
+                    <div class="dish-price"><!--inicio do dish-price-->
+                        <h4>R$20,00</h4>
+                        <button class="btn-default"><!--inicio do btn-default-->
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button><!--fim do btn-default-->
+                    </div><!--fim do dish-price-->
+                </div><!--fim do dish-->
+
+                <div class="dish"><!--inicio do dish-->
+                    <div class="dish-heart"><!--inicio do dish-heart-->
+                        <i class="fa-solid fa-heart"></i>
+                    </div><!--fim do dish-heart-->
+                    <img src="assests/images/lanche4.png" alt="">
+                    <h3 class="dish-description">Lorem Ipsum</h3>
+                    <span class="dish-description"><!--inicio do dish-description-->
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non officiis error recusandae perspiciatis molestiae quos, eaque, consequuntur nobis, animi aliquid voluptatibus laboriosam iure? Officia ratione in, perferendis quaerat sequi repellendus?
+                    </span><!--inicio do dish-description-->
+                    <div class="dish-rate"><!--inicio do dish-rate-->
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div><!--fim do dish-rate-->
+                    <div class="dish-price"><!--inicio do dish-price-->
+                        <h4>R$20,00</h4>
+                        <button class="btn-default"><!--inicio do btn-default-->
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button><!--fim do btn-default-->
+                    </div><!--fim do dish-price-->
+                </div><!--fim do dish-->
+
+            </div><!--fim do dishes-->
+        </section><!--fim do menu-->
+
+
+        <section id="testimonials"><!--inicio testimonials-->
+            <div class="shape_chef"></div>
+            <img src="assests/images/chef.png" id="testimonials_chef" alt="">
+            <div id="testiomnials_content"><!--inicio testiomnials_content-->
+                <h2 class="section-title">Depoimentos</h2>
+                <h3 class="section-subtitle">O que os clientes falam sobre nós</h3>
+                <div id="feedbacks"><!--inicio feedbacks-->
+                    <div class="feedback">
+                        <img src="assests/images/avatar.png" class="feedback-avatar" alt="">
+                        <div class="feedback-content"><!--inicio feedback-content-->
+                            <p>Fulana de Tal
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At quo necessitatibus consectetur, hic et quae pariatur vel magnam delectus commodi explicabo maiores asperiores optio eum nam non aliquid eligendi accusamus.</p>
+                        </div><!--fim feedback-content-->
+                    </div>
+                </div><!--fim feedbacks-->
+
+                <div id="feedbacks"><!--inicio feedbacks-->
+                    <div class="feedback">
+                        <img src="assests/images/avatar1.png" class="feedback-avatar" alt="">
+                        <div class="feedback-content"><!--inicio feedback-content-->
+                            <p>Fulana de Tal
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At quo necessitatibus consectetur, hic et quae pariatur vel magnam delectus commodi explicabo maiores asperiores optio eum nam non aliquid eligendi accusamus.</p>
+                        </div><!--fim feedback-content-->
+                    </div>
+                </div><!--fim feedbacks-->
+
+                <div id="feedbacks"><!--inicio feedbacks-->
+                    <div class="feedback">
+                        <img src="assests/images/avatar2.png" class="feedback-avatar" alt="">
+                        <div class="feedback-content"><!--inicio feedback-content-->
+                            <p>Fulana de Tal
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At quo necessitatibus consectetur, hic et quae pariatur vel magnam delectus commodi explicabo maiores asperiores optio eum nam non aliquid eligendi accusamus.</p>
+                        </div><!--fim feedback-content-->
+                    </div>
+                </div><!--fim feedbacks-->
+                <button class="btn-default">Ver mais avaliações</button>
+            </div><!--fim testiomnials_content-->
+        </section><!--fim testimonials-->
+    </main><!--fim do main content-->
+
+    <footer>
+        <img src="assests/images/wave.svg" alt="">
+        <div id="footer_items">
+            <span id="copyright">&</span>
+        </div>
+    </footer>
+</body>
+</html>
